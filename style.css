@@ -29,11 +29,15 @@ td{
 }
 
 body{
-    color: #222;
+    color: #fff;
     font-size: 16px;
+    font-weight: normal;
+    background: #fff url('http://bl-img.b0.upaiyun.com/bjd/bg_bjd_02.jpg!fw1800') 0 0 no-repeat;
+    background-size: cover;
+    min-width: 960px;
 }
 h1 {
-	font-size: 5em;
+	
 }
 
 #content{
@@ -42,25 +46,37 @@ h1 {
 	text-align: center;
 	font-family: 'lans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+#content:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.3) url('images/mask.png') 0 0 repeat;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 #content h1{
 	padding-top: 20%;
+    font-weight: normal;
+    font-size: 6em;
 }
 #content p{
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 2em;
-    color: #777;
 }
 #content a {
     display: inline-block;
-    color: #222;
+    color: #fff;
     font-size: 1.5em;
     text-decoration: none;
-    border-bottom: 1px dashed #999;
-    padding: 15px 0 5px;
+    padding: 20px 0 5px;
+    font-weight: 200;
 } 
 #content a:hover {
-    color: #c90000;
-    border-bottom: 1px dashed #c90000;
+    color: #fff;
+    border-bottom: 1px dashed #fff;
 } 
 
 @font-face {

@@ -39,7 +39,9 @@ body{
 h1 {
 	
 }
-
+html, body, #wrapper { 
+    height: 100%;
+}
 #content{
 	width: 960px;
 	margin: 0 auto;

@@ -32,3 +32,46 @@ body{
     color: #222;
     font-size: 16px;
 }
+h1 {
+	font-size: 5em;
+}
+
+#content{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'lans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#content h1{
+	padding-top: 20%;
+}
+#content p{
+    font-size: 1.5em;
+    line-height: 2em;
+    color: #777;
+}
+#content a {
+    display: inline-block;
+    color: #222;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-bottom: 1px dashed #999;
+    padding: 15px 0 5px;
+} 
+#content a:hover {
+    color: #c90000;
+    border-bottom: 1px dashed #c90000;
+} 
+
+@font-face {
+    font-family: "lans";
+    src: url("fonts/lans.eot"); /* IE9 */
+    src: url("fonts/lans.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("fonts/lans.woff") format("woff"), /* chrome、firefox */
+    url("fonts/lans.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("fonts/lans.svg#lans") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}

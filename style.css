@@ -42,6 +42,11 @@ h1 {
 html, body, #wrapper { 
     height: 100%;
 }
+#wrapper {
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
 #content{
 	width: 960px;
 	margin: 0 auto;
@@ -60,7 +65,6 @@ html, body, #wrapper {
     z-index: -1;
 }
 #content h1{
-	padding-top: 20%;
     font-weight: normal;
     font-size: 6em;
     text-shadow: 10px 20px 20px rgba(0,0,0,.8);
@@ -76,11 +80,16 @@ html, body, #wrapper {
     text-decoration: none;
     padding: 20px 0 5px;
     font-weight: 200;
+    margin: 0 10px;
+    border-bottom: 1px dashed rgba(0,0,0,0);
 } 
 #content a:hover {
     color: #fff;
     border-bottom: 1px dashed #fff;
 } 
+#info {
+    margin-top: 40px;
+}
 
 @font-face {
     font-family: "lans";

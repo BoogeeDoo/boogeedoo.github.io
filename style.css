@@ -32,7 +32,7 @@ body{
     color: #fff;
     font-size: 16px;
     font-weight: normal;
-    background: #fff url('//bl-img.b0.upaiyun.com/bjd/bg_bjd.jpg!fw1800') 0 0 no-repeat;
+    background: #fff url('bg.png') 0 0 no-repeat;
     background-size: cover;
     min-width: 960px;
 }

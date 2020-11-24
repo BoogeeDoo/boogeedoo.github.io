@@ -32,7 +32,7 @@ body{
     color: #fff;
     font-size: 16px;
     font-weight: normal;
-    background: #fff url('images/bg.png') 0 0 no-repeat;
+    background: #fff url(images/bg.png) center 0 no-repeat;
     background-size: cover;
     min-width: 960px;
 }
@@ -67,7 +67,7 @@ html, body, #wrapper {
 #content h1{
     font-weight: normal;
     font-size: 6em;
-    text-shadow: 10px 20px 20px rgba(0,0,0,.8);
+    text-shadow: 10px 20px 20px rgb(81 1 156 / 32%), -10px 20px 20px rgb(5 84 90 / 41%);
 }
 #content p{
     font-size: 1.8em;
